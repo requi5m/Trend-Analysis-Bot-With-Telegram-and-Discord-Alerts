@@ -1,0 +1,1 @@
+# Trend-Analysis-Bot-With-Telegram-and-Discord-Alerts
