@@ -1,6 +1,18 @@
 # Trend Analysis Bot with Telegram & Discord Alerts
 
+
+
+<img width="338" height="160" alt="Ekran Görüntüsü_20260214_225711" src="https://github.com/user-attachments/assets/319dbdc7-d9b6-4c08-b307-9af5b1c032f6" />
+
+
+
 This repository contains a professional-grade automation workflow designed to bridge Telegram market data with Discord analysis channels. The system utilizes n8n as the central orchestration engine, employing custom bot integrations to bypass standard platform limitations.
+
+
+
+<img width="375" height="166" alt="Ekran Görüntüsü_20260214_225946" src="https://github.com/user-attachments/assets/35a5ea18-7eb9-493b-a6cf-394eac5e8a0a" />
+
+
 
 # Overview
 
