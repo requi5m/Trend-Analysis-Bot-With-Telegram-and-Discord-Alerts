@@ -26,21 +26,21 @@ Figure 1: n8n logic flow including regex-based command routing and API integrati
 
 The workflow is optimized to recognize and process specific triggers across both platforms:
 
-# Telegram Interface:
+# Telegram Commands:
 
-/trend: Initiates technical trend evaluation.
+/trend
 
-/liquidity: Retrieves real-time liquidity depth and order book status.
+/volatility
 
-/review: Generates a comprehensive asset summary.
+/liquidity
 
-# Discord Interface (via n8n-trigger):
+# Discord Commands (via n8n-trigger):
 
-X Command: Executes advanced data filtering.
+x Command: Makes trend Analysis.
 
-Y Command: Triggers manual reporting protocols.
+y Command: Makes volatility analysis.
 
-Z Command: Adjusts notification parameters.
+z Command: Makes liquidity analysis.
 
 # Implementation & Integration
 1. Telegram Ingestion
@@ -63,7 +63,9 @@ Channel Configuration: Use the following command in the specific channels you wi
 
 /setup webhook: [YOUR_N8N_WEBHOOK_URL]
 
-# ID Mapping: Once the setup command is executed, the bot automatically maps the Channel IDs and Server IDs to the n8n webhook, ensuring all incoming messages from those specific environments are routed to the workflow, you need to manually replace Channel IDs.
+# ID Mapping: 
+
+Once the setup command is executed, the bot automatically maps the Channel IDs and Server IDs to the n8n webhook, ensuring all incoming messages from those specific environments are routed to the workflow, you need to manually replace Channel IDs.
 
 # Technical Logic & Scalability
 The core analysis is performed via a dedicated JavaScript node within n8n.
